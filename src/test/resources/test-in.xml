@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SomeRecordType xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="-1246836800">
+    <SomeOtherRecordType>
+        <AnotherRecordType>
+            <SomeField>This is a value.....</SomeField>
+            <SomeOtherField d:type="sFloat32">3883.293</SomeOtherField>
+            <SomeOtherField d:xx2="sFloat32">3883.293</SomeOtherField>
+            <SomeOtherField2 d:type="sFloat32">883.293</SomeOtherField2>
+            <SomeOtherField2 d:type="sFloat32">883.293</SomeOtherField2>
+            <SomeOtherField3 d:type="sFloat32">88.2934</SomeOtherField3>
+            <SomeOtherField4 d:type="sFloat32">8.2938</SomeOtherField4>
+            <Valuef64 d:type="sFloat64">1.5</Valuef64>
+            <Value2 d:type="sInt64">65535</Value2>
+            <Value3 d:type="sInt16">32767</Value3>
+            <Value4 d:type="sInt8">127</Value4>
+            <!--         Not supported:
+                sFloat128
+                sChar8
+               -->
+        </AnotherRecordType>
+    </SomeOtherRecordType>
+</SomeRecordType>

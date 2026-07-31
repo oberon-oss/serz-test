@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class SimpleByteFormatterTest {
 
-    private static final String NO_DATA_MESSAGE = "***** No data was specified *****";
+    private static final String NO_DATA_MESSAGE = "\n***** No data was specified *****\n";
 
     @Nested
     class Construction {
@@ -57,6 +57,14 @@ class SimpleByteFormatterTest {
             assertTrue(result.contains("0123456789ABCDEF"));
             assertTrue(result.contains("-----------------------------------------------"));
             assertTrue(result.contains("----------------"));
+        }
+
+        @Test
+        void formatBytesUsesZeroAsDefaultStartOffset() {
+            String result = SimpleByteFormatter.formatBytes(new byte[]{0x01});
+
+            assertTrue(result.contains("00000000  01"));
+            assertTrue(result.contains("[.               ]"));
         }
 
         @Test
@@ -132,6 +140,58 @@ class SimpleByteFormatterTest {
             assertTrue(result.contains("[0123456789ABCDEF]"));
             assertTrue(result.contains("00000010  47 48 49 4A 4B 4C 4D 4E 4F 50"));
             assertTrue(result.contains("[GHIJKLMNOP      ]"));
+        }
+
+        @Test
+        void formatBytesUsesAlignedCustomStartOffsetAsLineOffset() {
+            byte[] bytes = "ABC".getBytes(StandardCharsets.US_ASCII);
+
+            String result = SimpleByteFormatter.formatBytes(bytes, 0x00000B10);
+
+            assertTrue(result.contains("00000B10  41 42 43"));
+            assertTrue(result.contains("[ABC             ]"));
+        }
+
+        @Test
+        void formatBytesAlignsUnalignedCustomStartOffsetToPreviousSixteenByteBoundary() {
+            byte[] bytes = new byte[]{
+                    (byte) 0xFF,
+                    0x43,
+                    0x00,
+                    0x38,
+                    0x00,
+                    0x00,
+                    0x00
+            };
+
+            String result = SimpleByteFormatter.formatBytes(bytes, 2839);
+
+            assertTrue(result.contains("00000B10                       FF 43 00 38 00 00 00"));
+            assertTrue(result.contains("[       .C.8...  ]"));
+        }
+
+        @Test
+        void formatBytesContinuesOnNextLineWhenUnalignedCustomStartOffsetCrossesSixteenByteBoundary() {
+            byte[] bytes = "ABCDEFGHIJKL".getBytes(StandardCharsets.US_ASCII);
+
+            String result = SimpleByteFormatter.formatBytes(bytes, 0x00000B0C);
+
+            assertTrue(result.contains("00000B00                                      41 42 43 44"));
+            assertTrue(result.contains("[            ABCD]"));
+            assertTrue(result.contains("00000B10  45 46 47 48 49 4A 4B 4C"));
+            assertTrue(result.contains("[EFGHIJKL        ]"));
+        }
+
+        @Test
+        void formatBytesRejectsNegativeStartOffset() {
+            byte[] bytes = new byte[]{0x01};
+
+            IllegalArgumentException exception = assertThrows(
+                    IllegalArgumentException.class,
+                    () -> SimpleByteFormatter.formatBytes(bytes, -1)
+            );
+
+            assertEquals("startOffset must not be negative", exception.getMessage());
         }
 
         @Test

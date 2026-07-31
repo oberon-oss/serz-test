@@ -1,0 +1,1554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cRecordSet xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="-1246836800">
+	<Record>
+		<Network-cRoadRibbonContainer d:id="1205840304">
+			<Ribbon>
+				<Network-cRoadRibbon d:id="1843744224">
+					<_length d:type="sFloat32" d:alt_encoding="0000002031138040" d:precision="string">514.399</_length>
+					<RibbonID>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">5723740440983535616</e>
+								<e d:type="sUInt64">818805733258714516</e>
+							</UUID>
+							<DevString d:type="cDeltaString">fb5c8000-cf9a-4f6e-945d-f0e679fb5c0b</DevString>
+						</cGUID>
+					</RibbonID>
+					<Height>
+						<Network-iRibbon-cHeight d:id="487845656">
+							<_position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000AA016240" d:precision="string">144.052</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845668">
+							<_position d:type="sFloat32" d:alt_encoding="000000A099756140" d:precision="string">139.675</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000AA016240" d:precision="string">144.052</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845680">
+							<_position d:type="sFloat32" d:alt_encoding="000000C0F3956240" d:precision="string">148.686</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000A0EDFC6140" d:precision="string">143.904</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845692">
+							<_position d:type="sFloat32" d:alt_encoding="000000E026016740" d:precision="string">184.036</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000A045EA6140" d:precision="string">143.321</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845704">
+							<_position d:type="sFloat32" d:alt_encoding="00000060BC327340" d:precision="string">307.171</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000A070C96140" d:precision="string">142.295</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845716">
+							<_position d:type="sFloat32" d:alt_encoding="0000006012817440" d:precision="string">328.067</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000060B8C26140" d:precision="string">142.085</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845728">
+							<_position d:type="sFloat32" d:alt_encoding="000000A06EF27F40" d:precision="string">511.152</_position>
+							<_height d:type="sFloat32" d:alt_encoding="0000006010886140" d:precision="string">140.252</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="487845740">
+							<_position d:type="sFloat32" d:alt_encoding="0000002031138040" d:precision="string">514.399</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000D5846140" d:precision="string">140.151</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+					</Height>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+					<RBottomLeft d:numElements="2" d:elementType="sFloat32" d:precision="string">100.3391495 117.3836517</RBottomLeft>
+					<RExtents d:numElements="2" d:elementType="sFloat32" d:precision="string">288.4555054 371.3258057</RExtents>
+					<FixedPatternRef>
+						<Network-cNetworkRibbon-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternRibbonIndex d:type="sInt32">-1</FixedPatternRibbonIndex>
+						</Network-cNetworkRibbon-sFixedPatternRef>
+					</FixedPatternRef>
+					<LockCounterWhenModified d:type="sUInt32">2</LockCounterWhenModified>
+					<Curves>
+						<Network-cNetworkRibbonStreamed-cCurveContainerStreamed d:id="1843744328">
+							<RibbonID>
+								<Network-cNetworkRibbon-cCurveContainer-cID>
+									<RibbonID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">5723740440983535616</e>
+												<e d:type="sUInt64">818805733258714516</e>
+											</UUID>
+											<DevString d:type="cDeltaString">fb5c8000-cf9a-4f6e-945d-f0e679fb5c0b</DevString>
+										</cGUID>
+									</RibbonID>
+									<NetworkTypeID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">4690921396330699159</e>
+												<e d:type="sUInt64">2628392482681507244</e>
+											</UUID>
+											<DevString d:type="cDeltaString">09921997-8028-4119-accd-898409ed7924</DevString>
+										</cGUID>
+									</NetworkTypeID>
+								</Network-cNetworkRibbon-cCurveContainer-cID>
+							</RibbonID>
+							<Curve>
+								<cCurveArc d:id="1191084096">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000603B86373F" d:precision="string">0.000358953</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000C0F3956240" d:precision="string">148.686</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000060B84C7840" d:precision="string">388.795</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000002083585D40" d:precision="string">117.383</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.0238218 0.9997163</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F0BF" d:precision="string">-1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191086912">
+									<Curvature d:type="sFloat32" d:alt_encoding="00000040FDCDA13F" d:precision="string">0.0347747</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000040C6AC4140" d:precision="string">35.3498</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000C09FD47740" d:precision="string">381.289</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000C0CA9D7040" d:precision="string">265.862</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.0771188 0.9970220</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F0BF" d:precision="string">-1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191086120">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000C0B0E66A3F" d:precision="string">0.00328383</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="0000002006016240" d:precision="string">144.032</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A018827640" d:precision="string">360.131</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A06E367240" d:precision="string">291.402</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.9652694 0.2612566</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191086032">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000806C48323F" d:precision="string">0.000278975</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000060B8E26640" d:precision="string">183.085</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000C0C85E6D40" d:precision="string">234.962</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000C09F7E7640" d:precision="string">359.914</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.7402877 0.6722903</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveStraight d:id="1202177872">
+									<Length d:type="sFloat32" d:alt_encoding="000000E028F90940" d:precision="string">3.24666</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000002031A85940" d:precision="string">102.628</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000002083667E40" d:precision="string">486.407</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.7050016 0.7092056</StartTangent>
+								</cCurveStraight>
+							</Curve>
+						</Network-cNetworkRibbonStreamed-cCurveContainerStreamed>
+					</Curves>
+					<_pattern_id>
+						<Network-iRoadNetwork-cPatternID>
+							<PatternID d:type="sUInt32">0</PatternID>
+						</Network-iRoadNetwork-cPatternID>
+					</_pattern_id>
+					<_parent_id>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">5416484212899962154</e>
+								<e d:type="sUInt64">11157694588110849463</e>
+							</UUID>
+							<DevString d:type="cDeltaString">a169dd2a-37b1-4b2b-b745-a5a41c18d89a</DevString>
+						</cGUID>
+					</_parent_id>
+					<Properties>
+						<Network-cPropertyContainer d:id="1843744364">
+							<Property>
+								<Network-cSectionGenericProperties d:id="1458339328">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="0000002031138040" d:precision="string">514.399</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<BlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString">SAD2016</Provider>
+													<Product d:type="cDeltaString">IKB3</Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString">scenery\roads\road_asphalt_2lane_notraffic.xml</BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</BlueprintID>
+									<SecondaryBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</SecondaryBlueprintID>
+									<ElectrificationBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</ElectrificationBlueprintID>
+									<LoftScaleFactor d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LoftScaleFactor>
+								</Network-cSectionGenericProperties>
+								<Network-cTrackNetworkTrackRule d:id="1202181792">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="0000002031138040" d:precision="string">514.399</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<Property>
+										<Network-iTrackNetworkTrackRule-cPropertyValue>
+											<TrackRule>
+												<iBlueprintLibrary-cAbsoluteBlueprintID>
+													<BlueprintSetID>
+														<iBlueprintLibrary-cBlueprintSetID>
+															<Provider d:type="cDeltaString">SAD2016</Provider>
+															<Product d:type="cDeltaString">Network</Product>
+														</iBlueprintLibrary-cBlueprintSetID>
+													</BlueprintSetID>
+													<BlueprintID d:type="cDeltaString">SAD_tracks\SAD_track_trackrule_main.xml</BlueprintID>
+												</iBlueprintLibrary-cAbsoluteBlueprintID>
+											</TrackRule>
+										</Network-iTrackNetworkTrackRule-cPropertyValue>
+									</Property>
+								</Network-cTrackNetworkTrackRule>
+							</Property>
+							<SimpleValuePropertyEditFlag d:type="sUInt32">0</SimpleValuePropertyEditFlag>
+						</Network-cPropertyContainer>
+					</Properties>
+				</Network-cRoadRibbon>
+				<Network-cRoadRibbon d:id="1843747584">
+					<_length d:type="sFloat32" d:alt_encoding="00000040352E6040" d:precision="string">129.444</_length>
+					<RibbonID>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">4941915184269011515</e>
+								<e d:type="sUInt64">682724058106618036</e>
+							</UUID>
+							<DevString d:type="cDeltaString">3c76aa3b-35ad-4495-b4e0-0ee3e9857909</DevString>
+						</cGUID>
+					</RibbonID>
+					<Height>
+						<Network-iRibbon-cHeight d:id="39083744">
+							<_position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000C0CAF96040" d:precision="string">135.806</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083756">
+							<_position d:type="sFloat32" d:alt_encoding="00000060F0954440" d:precision="string">41.1714</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000C072246140" d:precision="string">137.139</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083768">
+							<_position d:type="sFloat32" d:alt_encoding="00000040BF754D40" d:precision="string">58.9199</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000E0D0366140" d:precision="string">137.713</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083780">
+							<_position d:type="sFloat32" d:alt_encoding="0000006074885240" d:precision="string">74.1321</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000E0D0366140" d:precision="string">137.713</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083792">
+							<_position d:type="sFloat32" d:alt_encoding="000000808E185540" d:precision="string">84.3837</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000C0CA316140" d:precision="string">137.556</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083804">
+							<_position d:type="sFloat32" d:alt_encoding="000000A01CB25F40" d:precision="string">126.783</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000020061D6140" d:precision="string">136.907</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="39083816">
+							<_position d:type="sFloat32" d:alt_encoding="00000040352E6040" d:precision="string">129.444</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000020061D6140" d:precision="string">136.907</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+					</Height>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+					<RBottomLeft d:numElements="2" d:elementType="sFloat32" d:precision="string">112.8858643 183.4759521</RBottomLeft>
+					<RExtents d:numElements="2" d:elementType="sFloat32" d:precision="string">18.4736671 120.1557617</RExtents>
+					<FixedPatternRef>
+						<Network-cNetworkRibbon-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternRibbonIndex d:type="sInt32">-1</FixedPatternRibbonIndex>
+						</Network-cNetworkRibbon-sFixedPatternRef>
+					</FixedPatternRef>
+					<LockCounterWhenModified d:type="sUInt32">1</LockCounterWhenModified>
+					<Curves>
+						<Network-cNetworkRibbonStreamed-cCurveContainerStreamed d:id="1843747688">
+							<RibbonID>
+								<Network-cNetworkRibbon-cCurveContainer-cID>
+									<RibbonID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">4941915184269011515</e>
+												<e d:type="sUInt64">682724058106618036</e>
+											</UUID>
+											<DevString d:type="cDeltaString">3c76aa3b-35ad-4495-b4e0-0ee3e9857909</DevString>
+										</cGUID>
+									</RibbonID>
+									<NetworkTypeID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">4690921396330699159</e>
+												<e d:type="sUInt64">2628392482681507244</e>
+											</UUID>
+											<DevString d:type="cDeltaString">09921997-8028-4119-accd-898409ed7924</DevString>
+										</cGUID>
+									</NetworkTypeID>
+								</Network-cNetworkRibbon-cCurveContainer-cID>
+							</RibbonID>
+							<Curve>
+								<cCurveArc d:id="1191085680">
+									<Curvature d:type="sFloat32" d:alt_encoding="0000002033C7A13F" d:precision="string">0.0347229</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000060F0954440" d:precision="string">41.1714</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000040B4385C40" d:precision="string">112.886</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A01CFA7240" d:precision="string">303.632</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">0.9335143 -0.3585402</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191085856">
+									<Curvature d:type="sFloat32" d:alt_encoding="00000080786D813F" d:precision="string">0.00850958</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000C09DBF3140" d:precision="string">17.7485</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000000029546040" d:precision="string">130.63</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A0EDE47040" d:precision="string">270.308</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.2235938 -0.9746825</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191087088">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000404E1B8F3F" d:precision="string">0.0151888</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000A0BB763940" d:precision="string">25.4638</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000040DF575F40" d:precision="string">125.373</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A0EFAB6F40" d:precision="string">253.373</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.3676979 -0.9299453</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F0BF" d:precision="string">-1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191085944">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000E0C8605E3F" d:precision="string">0.00185413</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000C015334540" d:precision="string">42.3991</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000060E5305E40" d:precision="string">120.764</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000040B68F6C40" d:precision="string">228.491</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">0.0102328 -0.9999477</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191088056">
+									<Curvature d:type="sFloat32" d:alt_encoding="0000004018349E3F" d:precision="string">0.0294956</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000040E4490540" d:precision="string">2.66108</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000400CE25D40" d:precision="string">119.532</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000040DF436740" d:precision="string">186.121</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.0683272 -0.9976630</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+							</Curve>
+						</Network-cNetworkRibbonStreamed-cCurveContainerStreamed>
+					</Curves>
+					<_pattern_id>
+						<Network-iRoadNetwork-cPatternID>
+							<PatternID d:type="sUInt32">0</PatternID>
+						</Network-iRoadNetwork-cPatternID>
+					</_pattern_id>
+					<_parent_id>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">5416484212899962154</e>
+								<e d:type="sUInt64">11157694588110849463</e>
+							</UUID>
+							<DevString d:type="cDeltaString">a169dd2a-37b1-4b2b-b745-a5a41c18d89a</DevString>
+						</cGUID>
+					</_parent_id>
+					<Properties>
+						<Network-cPropertyContainer d:id="1843747724">
+							<Property>
+								<Network-cSectionGenericProperties d:id="1458338704">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="00000040352E6040" d:precision="string">129.444</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<BlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString">SAD2016</Provider>
+													<Product d:type="cDeltaString">Scenery</Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString">procedural4\pad.xml</BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</BlueprintID>
+									<SecondaryBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</SecondaryBlueprintID>
+									<ElectrificationBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</ElectrificationBlueprintID>
+									<LoftScaleFactor d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LoftScaleFactor>
+								</Network-cSectionGenericProperties>
+								<Network-cTrackNetworkTrackRule d:id="1202184752">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="00000040352E6040" d:precision="string">129.444</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<Property>
+										<Network-iTrackNetworkTrackRule-cPropertyValue>
+											<TrackRule>
+												<iBlueprintLibrary-cAbsoluteBlueprintID>
+													<BlueprintSetID>
+														<iBlueprintLibrary-cBlueprintSetID>
+															<Provider d:type="cDeltaString">SAD2016</Provider>
+															<Product d:type="cDeltaString">Network</Product>
+														</iBlueprintLibrary-cBlueprintSetID>
+													</BlueprintSetID>
+													<BlueprintID d:type="cDeltaString">SAD_tracks\SAD_track_trackrule_main.xml</BlueprintID>
+												</iBlueprintLibrary-cAbsoluteBlueprintID>
+											</TrackRule>
+										</Network-iTrackNetworkTrackRule-cPropertyValue>
+									</Property>
+								</Network-cTrackNetworkTrackRule>
+							</Property>
+							<SimpleValuePropertyEditFlag d:type="sUInt32">0</SimpleValuePropertyEditFlag>
+						</Network-cPropertyContainer>
+					</Properties>
+				</Network-cRoadRibbon>
+				<Network-cRoadRibbon d:id="1843745424">
+					<_length d:type="sFloat32" d:alt_encoding="00000020B2597540" d:precision="string">341.606</_length>
+					<RibbonID>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">5601789374802808355</e>
+								<e d:type="sUInt64">428542826069174681</e>
+							</UUID>
+							<DevString d:type="cDeltaString">bfadce23-8dc1-4dbd-9929-e5066e7df205</DevString>
+						</cGUID>
+					</RibbonID>
+					<Height>
+						<Network-iRibbon-cHeight d:id="1195104112">
+							<_position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000E051186140" d:precision="string">136.76</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104124">
+							<_position d:type="sFloat32" d:alt_encoding="000000A03CCC3340" d:precision="string">19.7978</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000E078256140" d:precision="string">137.171</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104136">
+							<_position d:type="sFloat32" d:alt_encoding="00000000D5005D40" d:precision="string">116.013</_position>
+							<_height d:type="sFloat32" d:alt_encoding="0000004060656140" d:precision="string">139.168</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104148">
+							<_position d:type="sFloat32" d:alt_encoding="0000000081CD6340" d:precision="string">158.422</_position>
+							<_height d:type="sFloat32" d:alt_encoding="0000004089816140" d:precision="string">140.048</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104160">
+							<_position d:type="sFloat32" d:alt_encoding="000000A06E026B40" d:precision="string">216.076</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000D7A76140" d:precision="string">141.245</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104172">
+							<_position d:type="sFloat32" d:alt_encoding="000000A0EFA76B40" d:precision="string">221.248</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000D7A76140" d:precision="string">141.245</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104184">
+							<_position d:type="sFloat32" d:alt_encoding="0000000000446E40" d:precision="string">242.125</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000D7A76140" d:precision="string">141.245</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104196">
+							<_position d:type="sFloat32" d:alt_encoding="00000080C2517040" d:precision="string">261.11</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000000D7A76140" d:precision="string">141.245</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104208">
+							<_position d:type="sFloat32" d:alt_encoding="000000C09D077240" d:precision="string">288.476</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000C0F70B6240" d:precision="string">144.374</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104220">
+							<_position d:type="sFloat32" d:alt_encoding="000000806CB57240" d:precision="string">299.339</_position>
+							<_height d:type="sFloat32" d:alt_encoding="00000080BE0B6240" d:precision="string">144.367</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104232">
+							<_position d:type="sFloat32" d:alt_encoding="000000E022C57440" d:precision="string">332.321</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000400A0B6240" d:precision="string">144.345</_height>
+							<_manual d:type="bool">1</_manual>
+						</Network-iRibbon-cHeight>
+						<Network-iRibbon-cHeight d:id="1195104244">
+							<_position d:type="sFloat32" d:alt_encoding="00000020B2597540" d:precision="string">341.606</_position>
+							<_height d:type="sFloat32" d:alt_encoding="000000603B336240" d:precision="string">145.601</_height>
+							<_manual d:type="bool">0</_manual>
+						</Network-iRibbon-cHeight>
+					</Height>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+					<RBottomLeft d:numElements="2" d:elementType="sFloat32" d:precision="string">-22.8829956 565.8545532</RBottomLeft>
+					<RExtents d:numElements="2" d:elementType="sFloat32" d:precision="string">219.4729309 216.0698853</RExtents>
+					<FixedPatternRef>
+						<Network-cNetworkRibbon-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternRibbonIndex d:type="sInt32">-1</FixedPatternRibbonIndex>
+						</Network-cNetworkRibbon-sFixedPatternRef>
+					</FixedPatternRef>
+					<LockCounterWhenModified d:type="sUInt32">3</LockCounterWhenModified>
+					<Curves>
+						<Network-cNetworkRibbonStreamed-cCurveContainerStreamed d:id="1843745528">
+							<RibbonID>
+								<Network-cNetworkRibbon-cCurveContainer-cID>
+									<RibbonID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">5601789374802808355</e>
+												<e d:type="sUInt64">428542826069174681</e>
+											</UUID>
+											<DevString d:type="cDeltaString">bfadce23-8dc1-4dbd-9929-e5066e7df205</DevString>
+										</cGUID>
+									</RibbonID>
+									<NetworkTypeID>
+										<cGUID>
+											<UUID>
+												<e d:type="sUInt64">4690921396330699159</e>
+												<e d:type="sUInt64">2628392482681507244</e>
+											</UUID>
+											<DevString d:type="cDeltaString">09921997-8028-4119-accd-898409ed7924</DevString>
+										</cGUID>
+									</NetworkTypeID>
+								</Network-cNetworkRibbon-cCurveContainer-cID>
+							</RibbonID>
+							<Curve>
+								<cCurveArc d:id="1191088672">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000C0F15AB03F" d:precision="string">0.0638877</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000A03CCC3340" d:precision="string">19.7978</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000205A7C6740" d:precision="string">187.886</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000060646F8840" d:precision="string">781.924</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">0.8960741 -0.4439047</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191087528">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000C0D3327C3F" d:precision="string">0.00688441</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000040C40D5840" d:precision="string">96.2151</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000C0F58C6840" d:precision="string">196.405</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000E0FBEB8740" d:precision="string">765.498</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.1533868 -0.9881663</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191087352">
+									<Curvature d:type="sFloat32" d:alt_encoding="00000000AA1E7A3F" d:precision="string">0.0063769</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000C049344540" d:precision="string">42.4085</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000E0220B6340" d:precision="string">152.348</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000E07A4F8540" d:precision="string">681.935</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.7286711 -0.6848639</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191089024">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000808A2D8E3F" d:precision="string">0.0147353</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000C0CA694F40" d:precision="string">62.8265</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000080C07A5D40" d:precision="string">117.918</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000002B8B8440" d:precision="string">657.396</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.8851492 -0.4653074</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F0BF" d:precision="string">-1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191087440">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000C0F132B13F" d:precision="string">0.0671836</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="0000000076E03440" d:precision="string">20.8768</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000080A5A05440" d:precision="string">82.5101</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000000AA018340" d:precision="string">608.208</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.1603510 -0.9870601</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191089640">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000E0D4ACA43F" d:precision="string">0.0403811</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="0000000029FC3240" d:precision="string">18.985</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000E02FFB5040" d:precision="string">67.9248</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000020B09D8240" d:precision="string">595.711</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.9999744 -0.0071687</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F0BF" d:precision="string">-1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191088760">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000A09223883F" d:precision="string">0.0117866</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="00000060561D4340" d:precision="string">38.2292</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="00000080D9654940" d:precision="string">50.7957</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="000000A047658240" d:precision="string">588.66</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.7152559 -0.6988628</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+								<cCurveArc d:id="1191089728">
+									<Curvature d:type="sFloat32" d:alt_encoding="000000206470913F" d:precision="string">0.0170303</Curvature>
+									<Length d:type="sFloat32" d:alt_encoding="000000E036224540" d:precision="string">42.2673</Length>
+									<StartPos>
+										<cFarVector2>
+											<X>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-5</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000002026733240" d:precision="string">18.4498</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</X>
+											<Z>
+												<cFarCoordinate>
+													<RouteCoordinate>
+														<cRouteCoordinate>
+															<Distance d:type="sInt32">-10</Distance>
+														</cRouteCoordinate>
+													</RouteCoordinate>
+													<TileCoordinate>
+														<cTileCoordinate>
+															<Distance d:type="sFloat32" d:alt_encoding="0000000029C78140" d:precision="string">568.895</Distance>
+														</cTileCoordinate>
+													</TileCoordinate>
+												</cFarCoordinate>
+											</Z>
+										</cFarVector2>
+									</StartPos>
+									<StartTangent d:numElements="2" d:elementType="sFloat32" d:precision="string">-0.9482197 -0.3176152</StartTangent>
+									<CurveSign d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</CurveSign>
+								</cCurveArc>
+							</Curve>
+						</Network-cNetworkRibbonStreamed-cCurveContainerStreamed>
+					</Curves>
+					<_pattern_id>
+						<Network-iRoadNetwork-cPatternID>
+							<PatternID d:type="sUInt32">0</PatternID>
+						</Network-iRoadNetwork-cPatternID>
+					</_pattern_id>
+					<_parent_id>
+						<cGUID>
+							<UUID>
+								<e d:type="sUInt64">5416484212899962154</e>
+								<e d:type="sUInt64">11157694588110849463</e>
+							</UUID>
+							<DevString d:type="cDeltaString">a169dd2a-37b1-4b2b-b745-a5a41c18d89a</DevString>
+						</cGUID>
+					</_parent_id>
+					<Properties>
+						<Network-cPropertyContainer d:id="1843745564">
+							<Property>
+								<Network-cTrackNetworkTrackRule d:id="1202185072">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="00000020B2597540" d:precision="string">341.606</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<Property>
+										<Network-iTrackNetworkTrackRule-cPropertyValue>
+											<TrackRule>
+												<iBlueprintLibrary-cAbsoluteBlueprintID>
+													<BlueprintSetID>
+														<iBlueprintLibrary-cBlueprintSetID>
+															<Provider d:type="cDeltaString">SAD2016</Provider>
+															<Product d:type="cDeltaString">Network</Product>
+														</iBlueprintLibrary-cBlueprintSetID>
+													</BlueprintSetID>
+													<BlueprintID d:type="cDeltaString">SAD_tracks\SAD_track_trackrule_main.xml</BlueprintID>
+												</iBlueprintLibrary-cAbsoluteBlueprintID>
+											</TrackRule>
+										</Network-iTrackNetworkTrackRule-cPropertyValue>
+									</Property>
+								</Network-cTrackNetworkTrackRule>
+								<Network-cSectionGenericProperties d:id="1458337768">
+									<_start d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</_start>
+									<_end d:type="sFloat32" d:alt_encoding="00000020B2597540" d:precision="string">341.606</_end>
+									<ScenarioOwned d:type="bool">0</ScenarioOwned>
+									<BlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString">SAD2016</Provider>
+													<Product d:type="cDeltaString">Scenery</Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString">procedural4\pad.xml</BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</BlueprintID>
+									<SecondaryBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</SecondaryBlueprintID>
+									<ElectrificationBlueprintID>
+										<iBlueprintLibrary-cAbsoluteBlueprintID>
+											<BlueprintSetID>
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Provider d:type="cDeltaString"></Provider>
+													<Product d:type="cDeltaString"></Product>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</BlueprintSetID>
+											<BlueprintID d:type="cDeltaString"></BlueprintID>
+										</iBlueprintLibrary-cAbsoluteBlueprintID>
+									</ElectrificationBlueprintID>
+									<LoftScaleFactor d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</LoftScaleFactor>
+								</Network-cSectionGenericProperties>
+							</Property>
+							<SimpleValuePropertyEditFlag d:type="sUInt32">0</SimpleValuePropertyEditFlag>
+						</Network-cPropertyContainer>
+					</Properties>
+				</Network-cRoadRibbon>
+			</Ribbon>
+			<Node>
+				<Network-cRoadNode d:id="1191089816">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">4941915184269011515</e>
+										<e d:type="sUInt64">682724058106618036</e>
+									</UUID>
+									<DevString d:type="cDeltaString">3c76aa3b-35ad-4495-b4e0-0ee3e9857909</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+				<Network-cRoadNode d:id="1191088848">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">4941915184269011515</e>
+										<e d:type="sUInt64">682724058106618036</e>
+									</UUID>
+									<DevString d:type="cDeltaString">3c76aa3b-35ad-4495-b4e0-0ee3e9857909</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+				<Network-cRoadNode d:id="1191089992">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5601789374802808355</e>
+										<e d:type="sUInt64">428542826069174681</e>
+									</UUID>
+									<DevString d:type="cDeltaString">bfadce23-8dc1-4dbd-9929-e5066e7df205</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+				<Network-cRoadNode d:id="1191089904">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5601789374802808355</e>
+										<e d:type="sUInt64">428542826069174681</e>
+									</UUID>
+									<DevString d:type="cDeltaString">bfadce23-8dc1-4dbd-9929-e5066e7df205</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5657052012669731264</e>
+										<e d:type="sUInt64">15907291381655758228</e>
+									</UUID>
+									<DevString d:type="cDeltaString">4b1681c0-e2d5-4e81-9465-392e3b0dc2dc</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+				<Network-cRoadNode d:id="1191088232">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5723740440983535616</e>
+										<e d:type="sUInt64">818805733258714516</e>
+									</UUID>
+									<DevString d:type="cDeltaString">fb5c8000-cf9a-4f6e-945d-f0e679fb5c0b</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+				<Network-cRoadNode d:id="1191087616">
+					<Connection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5723740440983535616</e>
+										<e d:type="sUInt64">818805733258714516</e>
+									</UUID>
+									<DevString d:type="cDeltaString">fb5c8000-cf9a-4f6e-945d-f0e679fb5c0b</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+						<Network-cNetworkNode-sRConnection>
+							<_id>
+								<cGUID>
+									<UUID>
+										<e d:type="sUInt64">5498912685402026885</e>
+										<e d:type="sUInt64">13408961868532735154</e>
+									</UUID>
+									<DevString d:type="cDeltaString">f046f385-0ff3-4c50-b2dc-a694c63316ba</DevString>
+								</cGUID>
+							</_id>
+							<_end>
+								<cNormFloat>
+									<Position d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Position>
+								</cNormFloat>
+							</_end>
+						</Network-cNetworkNode-sRConnection>
+					</Connection>
+					<FixedPatternRef>
+						<Network-cNetworkNode-sFixedPatternRef>
+							<FixedPattern>
+								<d:nil/>
+							</FixedPattern>
+							<FixedPatternNodeIndex d:type="sInt32">-1</FixedPatternNodeIndex>
+						</Network-cNetworkNode-sFixedPatternRef>
+					</FixedPatternRef>
+					<RouteVector>
+						<cRouteVector2>
+							<X>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-5</Distance>
+								</cRouteCoordinate>
+							</X>
+							<Z>
+								<cRouteCoordinate>
+									<Distance d:type="sInt32">-10</Distance>
+								</cRouteCoordinate>
+							</Z>
+						</cRouteVector2>
+					</RouteVector>
+				</Network-cRoadNode>
+			</Node>
+			<Connection/>
+		</Network-cRoadRibbonContainer>
+	</Record>
+</cRecordSet>

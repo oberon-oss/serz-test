@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SomeRecordType xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="-1246836800">
+	<SomeOtherRecordType>
+		<AnotherRecordType>
+			<SomeField d:type="cDeltaString">This is a value.....</SomeField>
+			<SomeOtherField d:type="sFloat32" d:alt_encoding="000000009656AE40" d:precision="string">3883.29</SomeOtherField>
+			<SomeOtherField d:type="cDeltaString">3883.293</SomeOtherField>
+			<SomeOtherField2 d:type="sFloat32" d:alt_encoding="00000020589A8B40" d:precision="string">883.293</SomeOtherField2>
+			<SomeOtherField2 d:type="sFloat32" d:alt_encoding="00000020589A8B40" d:precision="string">883.293</SomeOtherField2>
+			<SomeOtherField3 d:type="sFloat32" d:alt_encoding="00000020C7125640" d:precision="string">88.2934</SomeOtherField3>
+			<SomeOtherField4 d:type="sFloat32" d:alt_encoding="000000006D962040" d:precision="string">8.2938</SomeOtherField4>
+			<Valuef64 d:type="sFloat64" d:alt_encoding="000000000000F83F" d:precision="string">1.5</Valuef64>
+			<Value2 d:type="sInt64">65535</Value2>
+			<Value3 d:type="sInt16">32767</Value3>
+			<Value4 d:type="sInt8">127</Value4>
+		</AnotherRecordType>
+	</SomeOtherRecordType>
+</SomeRecordType>
