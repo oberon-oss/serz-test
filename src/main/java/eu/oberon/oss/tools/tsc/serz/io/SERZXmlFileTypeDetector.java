@@ -4,6 +4,8 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamConstants;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.XMLStreamReader;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
@@ -61,6 +63,13 @@ public final class SERZXmlFileTypeDetector extends FileTypeDetector {
         if (!Files.isRegularFile(path)) {
             return null;
         }
+        // First, examine the 1st line to see if is indeed an XML file.
+        try (BufferedReader fileReader = new BufferedReader(new FileReader(path.toFile()))) {
+            final String firstLine = fileReader.readLine();
+            if (firstLine == null || !firstLine.trim().startsWith("<?xml")) {
+                return null;
+            }
+        }
         try (InputStream inputStream = Files.newInputStream(path)) {
             return isTscXml(inputStream) ? MIME_TYPE : null;
         } catch (XMLStreamException _) {
@@ -69,12 +78,15 @@ public final class SERZXmlFileTypeDetector extends FileTypeDetector {
     }
 
     private static boolean isTscXml(InputStream inputStream) throws XMLStreamException {
-        XMLInputFactory factory = XMLInputFactory.newFactory();
+
+        XMLInputFactory factory = XMLInputFactory.newInstance();
         factory.setProperty(XMLInputFactory.IS_COALESCING, true);
         factory.setProperty(XMLInputFactory.SUPPORT_DTD, false);
         factory.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, false);
+        factory.setProperty(XMLInputFactory.IS_VALIDATING, false);
 
         XMLStreamReader reader = factory.createXMLStreamReader(inputStream);
+
         try {
             while (reader.hasNext()) {
                 int event = reader.next();

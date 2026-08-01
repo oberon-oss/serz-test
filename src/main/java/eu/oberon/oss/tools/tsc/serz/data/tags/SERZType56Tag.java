@@ -45,12 +45,16 @@ public class SERZType56Tag extends AbstractSerzTag {
             String attrName = cDeltaString.getValue(viewer, localOffset, attrNameLength);
             localOffset += attrNameLength;
 
-            switch (DataType.fromText(attrName)) {
+            switch (DataType.bySerzDataTypeName(attrName)) {
                 case BOOL -> {
                     attributes.add(new Type56Attribute(bool.getValue(viewer, localOffset), localOffset, attrName));
                     localOffset++;
                 }
                 case S_UINT32 -> {
+                    attributes.add(new Type56Attribute(sUInt32.getValue(viewer, localOffset), localOffset, attrName));
+                    localOffset += 4;
+                }
+                case S_INT32 -> {
                     attributes.add(new Type56Attribute(sInt32.getValue(viewer, localOffset), localOffset, attrName));
                     localOffset += 4;
                 }
@@ -74,9 +78,7 @@ public class SERZType56Tag extends AbstractSerzTag {
                     attributes.add(new Type56Attribute(sFloat32.getValue(viewer, localOffset), localOffset, attrName));
                     localOffset += 4;
                 }
-                default -> {
-                    LOGGER.warn("Unknown attribute type: {}", attrName);
-                }
+                default -> LOGGER.warn("Unknown attribute type: {}", attrName);
             }
         }
         LOGGER.info("# of Attributes: {}", attributes.size());
@@ -87,8 +89,9 @@ public class SERZType56Tag extends AbstractSerzTag {
 
     private record Type56Attribute(Object value, int offset, String name) implements Attribute {
         @Override
-            public <T> T getValue() {
-                return (T) value;
-            }
+        public <T> T getValue() {
+            //noinspection unchecked
+            return (T) value;
         }
+    }
 }

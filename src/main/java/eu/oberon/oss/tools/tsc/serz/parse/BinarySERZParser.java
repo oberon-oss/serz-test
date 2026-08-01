@@ -10,9 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Parses a binary file format containing sequentially encoded SERZ records and processes them into appropriate SERZTag objects. The parser traverses the binary
@@ -57,22 +55,12 @@ public class BinarySERZParser {
         while (reader.hasRemaining()) {
             records.add(getRecord(reader));
         }
-
-        Map<Integer, String> names = AbstractSerzTag.getNames();
-        AtomicInteger count= new AtomicInteger(1);
-        names.forEach((offset, name) -> {
-            String output = String.format("idx: %4d, offset: %6x, Name: %s", count.getAndIncrement(), offset, name);
-            LOGGER.info("{}", output);
-        });
         return records;
     }
 
     @SuppressWarnings("java:S2629")
     private SERZTag getRecord(BinaryDataReader reader) {
-        SERZTagTypes type = Objects.requireNonNull(
-                runMatch(reader),
-                () -> "Unable to match SERZ record at " + String.format("0x%08X", reader.offset())
-        );
+        SERZTagTypes type = Objects.requireNonNull(runMatch(reader), () -> "Unable to match SERZ record at " + String.format("0x%08X", reader.offset()));
         BinaryDataViewer viewer = reader.getViewer();
         SERZTag serzTag;
         switch (type) {
@@ -111,7 +99,6 @@ public class BinarySERZParser {
             default:
                 throw new IllegalStateException("Unexpected value: " + type);
         }
-        System.out.println("\n-----\n");
         return serzTag;
     }
 

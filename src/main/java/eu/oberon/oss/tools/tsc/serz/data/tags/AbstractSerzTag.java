@@ -69,11 +69,12 @@ public class AbstractSerzTag implements SERZTag {
         return SimpleByteFormatter.formatBytes(viewer.peekBytes(dataOffset, dataSize));
     }
 
-    protected static final SignedIntegerRetriever sInt32 = DataType.retriever(S_INT32);
-    protected static final StringValueRetriever cDeltaString = DataType.retriever(C_DELTA_STRING);
-    protected static final BooleanRetriever bool = DataType.retriever(BOOL);
-    protected static final UnsignedByteRetriever sUInt8 = DataType.retriever(S_UINT8);
-    protected static final UnsignedShortRetriever sUInt16 = DataType.retriever(S_UINT16);
-    protected static final SignedShortRetriever sInt16 = DataType.retriever(S_INT16);
-    protected static final FloatRetriever sFloat32 = DataType.retriever(S_FLOAT32);
+    protected static final SignedIntegerRetriever sInt32 = DataType.retrieverByDataType(S_INT32);
+    protected static final UnsignedIntegerRetriever sUInt32 = DataType.retrieverByDataType(S_UINT32);
+    protected static final StringValueRetriever cDeltaString = DataType.retrieverByDataType(C_DELTA_STRING);
+    protected static final BooleanRetriever bool = DataType.retrieverByDataType(BOOL);
+    protected static final UnsignedByteRetriever sUInt8 = DataType.retrieverByDataType(S_UINT8);
+    protected static final UnsignedShortRetriever sUInt16 = DataType.retrieverByDataType(S_UINT16);
+    protected static final SignedShortRetriever sInt16 = DataType.retrieverByDataType(S_INT16);
+    protected static final FloatRetriever sFloat32 = DataType.retrieverByDataType(S_FLOAT32);
 }

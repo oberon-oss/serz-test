@@ -2,7 +2,9 @@ package eu.oberon.oss.tools.tsc.serz;
 
 import eu.oberon.oss.tools.retriever.AbstractValueRetriever;
 import eu.oberon.oss.tools.retriever.ValueRetriever;
+import lombok.Getter;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import static eu.oberon.oss.tools.retriever.AbstractValueRetriever.getRetriever;
@@ -69,7 +71,7 @@ public enum DataType {
      */
     C_DELTA_STRING("cDeltaString", getRetriever("STRING"));
 
-    private static final Map<String, DataType> BY_TEXT = Map.of(
+    private static final Map<String, DataType> BY_TEXT; /*= Map.of(
             "bool", BOOL,
             "sUInt8", S_UINT8,
             "sInt16", S_INT16,
@@ -80,26 +82,24 @@ public enum DataType {
             "sFloat32", S_FLOAT32,
             "cDeltaString", C_DELTA_STRING
     );
-
-    private final String text;
+*/
+    @Getter
+    private final String serzDataTypeName;
     private final ValueRetriever retriever;
 
-    DataType(String text, ValueRetriever retriever) {
-        this.text = text;
+    DataType(String serzDataTypeName, ValueRetriever retriever) {
+        this.serzDataTypeName = serzDataTypeName;
         this.retriever = retriever;
     }
 
 
-    /**
-     * Returns the text representation of this data type.
-     *
-     * @return the text representation of this data type
-     *
-     * @since 1.0.0
-     */
-    public String text() {
-        return text;
+    static {
+        BY_TEXT = new HashMap<>();
+        for (DataType dataType : values()) {
+            BY_TEXT.put(dataType.getSerzDataTypeName(), dataType);
+        }
     }
+
 
     /**
      * Returns the data type corresponding to the given text representation.
@@ -111,7 +111,7 @@ public enum DataType {
      * @throws IllegalArgumentException if the given text representation is unknown
      * @since 1.0.0
      */
-    public static DataType fromText(String text) {
+    public static DataType bySerzDataTypeName(String text) {
         DataType dataType = BY_TEXT.get(text);
         if (dataType == null) {
             throw new IllegalArgumentException("Unknown data type: " + text);
@@ -129,8 +129,23 @@ public enum DataType {
      *
      * @since 1.0.0
      */
-    public static <T extends AbstractValueRetriever> T retriever(DataType dataType) {
+    public static <T extends AbstractValueRetriever> T retrieverByDataType(DataType dataType) {
         //noinspection unchecked
         return (T) dataType.retriever;
+    }
+
+    /**
+     * Returns the value retriever for the given name.
+     *
+     * @param name the name of the data type
+     * @param <T>  the type of class that the value retriever will return.
+     *
+     * @return the value retriever for the given data type
+     *
+     * @since 1.0.0
+     */
+    public static <T extends AbstractValueRetriever> T RetrieverBySerzDataTypeName(String name) {
+        //noinspection unchecked
+        return (T) bySerzDataTypeName(name).retriever;
     }
 }
