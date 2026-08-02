@@ -19,10 +19,10 @@ public class SERZType70Tag extends AbstractSerzTag {
         unsignedValue = sUInt16.getValue(viewer, dataOffset);
         signedValue = sInt16.getValue(viewer, dataOffset);
         if (signedValue == unsignedValue) {
-            LOGGER.info("Data: {}",signedValue);
+//            LOGGER.info("Data: {}",signedValue);
         }
         else {
-            LOGGER.debug("Unsigned value: {}, signed value: {}", unsignedValue, signedValue);
+//            LOGGER.debug("Unsigned value: {}, signed value: {}", unsignedValue, signedValue);
         }
     }
 }

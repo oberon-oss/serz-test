@@ -17,7 +17,5 @@ public class SERZTypeXXTag extends AbstractSerzTag {
 
     private void dissect() {
         // String info = String.format("ID = 0x%X%X", viewer.peekByte(getOffset()), viewer.peekByte(getOffset() + 1));
-        LOGGER.info("\n{}", SimpleByteFormatter.formatBytes(viewer.peekBytes(dataOffset, dataSize), getOffset()));
-
     }
 }

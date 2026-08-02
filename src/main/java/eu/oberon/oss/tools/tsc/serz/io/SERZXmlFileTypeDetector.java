@@ -58,6 +58,26 @@ public final class SERZXmlFileTypeDetector extends FileTypeDetector {
         // Keep Javadoc happy
     }
 
+    /**
+     * Probes the given file to guess its content type.
+     *
+     * <p>
+     * Note: The check for a valid XML file containing serz data is performed by
+     * <ol>
+     *     <li>examining the first line of the file to ensure it starts with {@code <?xml} and then </li>
+     *     <li>by parsing the XML document to verify that it contains the expected namespace URI specified by the {@link #KUJU_NS}</li>
+     * </ol>
+     * The first check was added to prevent unnecessary parsing of the XML document if the file is not an XML file, which resulted in error messages, as the
+     * XML reader cannot handle binary data, for instance. This would cause calls to {@link Files#probeContentType(Path)} to emit these messages, which I
+     * considered to be messy.
+     *
+     * @param path the path to the file to probe
+     *
+     * @return the content type of the file, specified by {@link #MIME_TYPE}, or {@code null} if the file is not a valid XML file containing SERZ data.
+     *
+     * @throws IOException if an I/O error occurs while probing the file
+     * @since 1.0.0
+     */
     @Override
     public String probeContentType(Path path) throws IOException {
         if (!Files.isRegularFile(path)) {

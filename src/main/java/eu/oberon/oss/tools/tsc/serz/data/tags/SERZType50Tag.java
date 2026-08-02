@@ -48,7 +48,7 @@ public class SERZType50Tag extends AbstractSerzTag {
         localOffset += 4;
 
         numberOfChildren = sInt32.getValue(viewer, localOffset);
-        LOGGER.info("record id={}, name={}, number of children={}", recordId, recordName, numberOfChildren);
+//        LOGGER.info("record id={}, name={}, number of children={}", recordId, recordName, numberOfChildren);
     }
 
 

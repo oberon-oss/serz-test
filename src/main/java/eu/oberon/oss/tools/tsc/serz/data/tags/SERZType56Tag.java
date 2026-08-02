@@ -81,10 +81,10 @@ public class SERZType56Tag extends AbstractSerzTag {
                 default -> LOGGER.warn("Unknown attribute type: {}", attrName);
             }
         }
-        LOGGER.info("# of Attributes: {}", attributes.size());
-        for (Type56Attribute attribute : attributes) {
-            LOGGER.info("Attribute: {}, Offset: {}, Value: {}", attribute.name(), attribute.offset(), attribute.getValue());
-        }
+//        LOGGER.info("# of Attributes: {}", attributes.size());
+//        for (Type56Attribute attribute : attributes) {
+//            LOGGER.info("Attribute: {}, Offset: {}, Value: {}", attribute.name(), attribute.offset(), attribute.getValue());
+//        }
     }
 
     private record Type56Attribute(Object value, int offset, String name) implements Attribute {

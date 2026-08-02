@@ -99,6 +99,7 @@ public class BinarySERZParser {
             default:
                 throw new IllegalStateException("Unexpected value: " + type);
         }
+        LOGGER.info("Parsed SERZ tag at offset {}, type = {}, dataSize = {}", serzTag.getOffset(), serzTag.getType(), serzTag.getLength());
         return serzTag;
     }
 
