@@ -9,13 +9,38 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Represents a SERZ type 56 tag record containing attributes.
+ *
+ * @author TigerLilly64
+ * @since 1.0.0
+ */
 @Slf4j
 public class SERZType56Tag extends AbstractSerzTag {
+    /**
+     * The length in bytes of the record name.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private int recordNameLength;
+    /**
+     * The name of the record.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private String recordName;
 
+    /**
+     * Constructs a {@code SERZType56Tag} instance and dissects the record data and its attributes.
+     *
+     * @param viewer   the binary data viewer
+     * @param offset   the byte offset of the tag in the binary data
+     * @param dataSize the size in bytes of the tag payload
+     *
+     * @since 1.0.0
+     */
     public SERZType56Tag(BinaryDataViewer viewer, int offset, int dataSize) {
         super(SERZTagTypes.TYPE_56, viewer, offset, dataSize);
         dissect();
@@ -34,6 +59,7 @@ public class SERZType56Tag extends AbstractSerzTag {
         // which are container tags for type 56 tags.
         localOffset += recordNameLength;
 
+        @SuppressWarnings({"java:S4030", "MismatchedQueryAndUpdateOfCollection"})
         List<Type56Attribute> attributes = new ArrayList<>();
 
         while (Arrays.equals(viewer.peekBytes(localOffset, 2), new byte[]{(byte) 0xFF, (byte) 0xFF})) {
@@ -81,10 +107,6 @@ public class SERZType56Tag extends AbstractSerzTag {
                 default -> LOGGER.warn("Unknown attribute type: {}", attrName);
             }
         }
-//        LOGGER.info("# of Attributes: {}", attributes.size());
-//        for (Type56Attribute attribute : attributes) {
-//            LOGGER.info("Attribute: {}, Offset: {}, Value: {}", attribute.name(), attribute.offset(), attribute.getValue());
-//        }
     }
 
     private record Type56Attribute(Object value, int offset, String name) implements Attribute {

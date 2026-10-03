@@ -4,17 +4,51 @@ import eu.oberon.oss.tools.binaryreader.BinaryDataViewer;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * Represents a SERZ type 50 container tag record that can contain child records.
+ *
+ * @author TigerLilly64
+ * @since 1.0.0
+ */
 @Slf4j
 public class SERZType50Tag extends AbstractSerzTag {
+    /**
+     * The length in bytes of the record name.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private int recordNameLength;
+    /**
+     * The name of the record.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private String recordName;
+    /**
+     * The identifier of the record.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private int recordId;
+    /**
+     * The number of child records contained within this container.
+     *
+     * @since 1.0.0
+     */
     @Getter
     private int numberOfChildren;
 
+    /**
+     * Constructs a {@code SERZType50Tag} instance and dissects the record data.
+     *
+     * @param viewer       the binary data viewer
+     * @param recordOffset the byte offset of the record
+     * @param dataSize     the size in bytes of the tag payload
+     * @since 1.0.0
+     */
     public SERZType50Tag(BinaryDataViewer viewer, int recordOffset, int dataSize) {
         super(SERZTagTypes.TYPE_50, viewer, recordOffset, dataSize);
         dissect();
@@ -48,7 +82,6 @@ public class SERZType50Tag extends AbstractSerzTag {
         localOffset += 4;
 
         numberOfChildren = sInt32.getValue(viewer, localOffset);
-//        LOGGER.info("record id={}, name={}, number of children={}", recordId, recordName, numberOfChildren);
     }
 
 

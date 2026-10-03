@@ -1,28 +1,25 @@
 package eu.oberon.oss.tools.tsc.serz.data.tags;
 
 import eu.oberon.oss.tools.binaryreader.BinaryDataViewer;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
+/**
+ * Represents a SERZ type 70 tag record.
+ *
+ * @author TigerLilly64
+ * @since 1.0.0
+ */
 public class SERZType70Tag extends AbstractSerzTag {
-    private static final Logger LOGGER = LoggerFactory.getLogger(SERZType70Tag.class);
 
-    private int unsignedValue;
-    private int signedValue;
 
+    /**
+     * Constructs a {@code SERZType70Tag} instance and dissects the record data.
+     *
+     * @param viewer   the binary data viewer
+     * @param offset   the byte offset of the tag in the binary data
+     * @param dataSize the size in bytes of the tag payload
+     * @since 1.0.0
+     */
     public SERZType70Tag(BinaryDataViewer viewer, int offset, int dataSize) {
         super(SERZTagTypes.TYPE_70, viewer, offset, dataSize);
-        dissect();
-    }
-
-    private void dissect() {
-        unsignedValue = sUInt16.getValue(viewer, dataOffset);
-        signedValue = sInt16.getValue(viewer, dataOffset);
-        if (signedValue == unsignedValue) {
-//            LOGGER.info("Data: {}",signedValue);
-        }
-        else {
-//            LOGGER.debug("Unsigned value: {}, signed value: {}", unsignedValue, signedValue);
-        }
     }
 }

@@ -32,6 +32,9 @@ import java.nio.file.spi.FileTypeDetector;
  *   SERZ XML type.</li>
  *   <li>This implementation relies on an {@link XMLStreamReader} for processing the XML content efficiently.</li>
  * </ul>
+ *
+ * @author TigerLilly64
+ * @since 1.0.0
  */
 public final class SERZXmlFileTypeDetector extends FileTypeDetector {
     /**

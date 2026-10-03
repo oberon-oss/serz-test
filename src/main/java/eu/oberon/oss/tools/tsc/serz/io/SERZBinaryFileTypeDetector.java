@@ -44,6 +44,14 @@ public final class SERZBinaryFileTypeDetector extends FileTypeDetector {
 
     private static final byte[] SERZ_MAGIC = {'S', 'E', 'R', 'Z', 0, 0, 1, 0};
 
+    /**
+     * Probes the given file path to determine if it is a SERZ binary file.
+     *
+     * @param path the path to the file to probe
+     * @return the MIME type {@code "application/x-serz"} if the file matches the SERZ magic header, or {@code null} otherwise
+     * @throws IOException if an I/O error occurs reading the file
+     * @since 1.0.0
+     */
     @Override
     public String probeContentType(Path path) throws IOException {
         if (!Files.isRegularFile(path)) {

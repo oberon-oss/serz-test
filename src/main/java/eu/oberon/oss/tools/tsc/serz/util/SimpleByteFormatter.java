@@ -44,11 +44,13 @@ public class SimpleByteFormatter {
      * Formats a byte array into a readable hexadecimal and character representation.
      * <p>
      * This method allows the user control over the row/offset the data starts displaying on. For example, let's assume the following byte sequence:
+     * </p>
      * <p>
      * {@code FF 43 00 38 00 00 00 }
+     * </p>
      * <p>
      * If you called {@code formatBytes(new byte[]{(byte)0xFF, 0x43, 0x00, 0x38, 0x00, 0x00, 0x00}, 0)}, it would be displayed as:
-     * <p>
+     * </p>
      * <pre>
      * {@code
      *           00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F ---  0123456789ABCDEF
@@ -56,8 +58,9 @@ public class SimpleByteFormatter {
      * 00000000  FF 43 00 38 00 00 00                            --- [.C.8...         ]
      * }
      * </pre>
-     * But let's now assume the data is part of a larger byte array and actually does NOT start at offset 0, but say 389. The output would then look like this:
      * <p>
+     * But let's now assume the data is part of a larger byte array and actually does NOT start at offset 0, but say 389. The output would then look like this:
+     * </p>
      * <pre>
      * {@code
      *           00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F ---  0123456789ABCDEF
@@ -66,7 +69,8 @@ public class SimpleByteFormatter {
      * }
      * </pre>
      * <p>
-     * As you can see, the offset is now displayed as 00000180 (decimal: 384) instead of 00000000, and the data starts at column 5 (384+5 == 389)
+     * As you can see, the offset is now displayed as 00000180 (decimal: 384) instead of 00000000, and the data starts at column 5 (384+5 == 389).
+     * </p>
      *
      * @param binaryData  The byte array to format.
      * @param startOffset The offset to start formatting from.

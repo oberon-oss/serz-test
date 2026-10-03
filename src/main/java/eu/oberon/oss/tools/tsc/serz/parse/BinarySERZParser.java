@@ -31,6 +31,7 @@ public class BinarySERZParser {
      * @since 1.0.0
      */
     public BinarySERZParser() {
+        // Keep Javadoc happy
     }
 
     /**
@@ -38,6 +39,7 @@ public class BinarySERZParser {
      *
      * @param viewer The BinaryDataViewer used to traverse and read the binary data.
      *
+     * @return the list of parsed {@link SERZTag} records
      * @throws NullPointerException     if the viewer is null
      * @throws IllegalArgumentException if the SERZ header is not found at the start of the data.
      * @since 1.0.0
